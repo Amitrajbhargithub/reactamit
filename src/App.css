@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.box
+{
+  min-height: 50px;
+  width: 100%;
+  background: gray;
+  padding: 2px;
+}
+
+.box ul li
+{
+  margin-left: 30px;
+  margin-top: 20px;
+  display: inline;
+  font-size: 20px;
+  list-style-type: none;
+  color: black;
+}
+
+.box ul li:hover
+{
+  color: white;
+  border-top:2px solid orange;
+}
